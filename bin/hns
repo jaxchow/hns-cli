@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+'use strict';
+
+process.bin = process.title = 'hns';
+var args = process.argv.slice(1);
+//console.dir(process.env);
+var hns =require('../lib/hns-cli');
+/*
+program
+	.version('0.0.1')
+	.option('-s --server <n>','start web server',"127.0.0.1")
+	.option('-r --restart <n>','restart websever','router')
+	.option('-p --port <n>','web server port','3000')
+	.option('-d --debug','debug program')
+	.option('-ll --liveload','liveload')
+	.option('-lk --link','link')
+	.option('-i --install','install')
+	.option('-ni --node-inspector','use node-inspector debug program')
+	.option('-g --grunt','grunt taks')
+	.parse(process.argv);
+*/
+
+//hns.cli(args);
+
+hns.cli(args);
+

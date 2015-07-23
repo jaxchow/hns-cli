@@ -1,10 +1,10 @@
 {
   "name": "hns-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "hns command line tools",
   "main": "lib/hns-cli.js",
-  "bin":{
-	"hns":"bin/hns"
+  "bin": {
+    "hns": "bin/hns"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,22 +13,24 @@
     "type": "git",
     "url": "http://github.com/jaxchow/hns-cli"
   },
-  "dependencies":{
-	  "hns-logger":"1.0.0",
-	  "coffee-script":"1.9.1",
-      "supervisor":"0.6.0",
-	  "node-livereload":"0.6.0"
+  "dependencies": {
+    "hns-logger": "1.0.0",
+    "coffee-script": "1.9.1",
+    "supervisor": "0.6.0",
+    "browser-sync": "^2.7.13",
+    "hotswap": "^1.1.0",
+    "node-livereload": "0.6.0"
   },
   "keywords": [
     "command",
     "line",
     "tools"
   ],
-  "preferGlobal":"true",
+  "preferGlobal": "true",
   "author": "jaxchow",
   "license": "mit",
   "bugs": {
     "url": "https://github.com/jaxchow/hns-cli/issues"
   },
-  "homepage": "https://github.com/jaxchow/hns-cli"
+  "homepage": "https://github.com/jaxchow/hns-cli",
 }
